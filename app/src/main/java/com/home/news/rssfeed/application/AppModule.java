@@ -23,6 +23,11 @@ public abstract class AppModule {
                 Context.MODE_PRIVATE);
     }
 
+    @Provides
+    @Singleton
+    public static Context provideContext(Application application) {
+        return application;
+    }
     @ActivityScope
     @ContributesAndroidInjector(modules = {MainFeedModule.class})
     abstract MainFeedActivity contributesMainFeedActivity();

@@ -13,6 +13,6 @@ public class DatabaseModule {
     @Provides
     @Singleton
     NewsDatabase  provideDatabase(Context context) {
-        return new Room.databaseBuilder(context, NewsDatabase.class, "news_data").build();
+        return Room.databaseBuilder(context, NewsDatabase.class,"df").build();
     }
 }
