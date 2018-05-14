@@ -1,5 +1,7 @@
 package com.home.news.rssfeed.application;
 
+import com.home.news.rssfeed.network.NetworkModule;
+
 import dagger.android.AndroidInjector;
 import dagger.android.support.DaggerApplication;
 
@@ -10,6 +12,7 @@ public class RssApplication extends DaggerApplication {
         AppComponent appComponent = DaggerAppComponent
                 .builder()
                 .application(this)
+                .networkModule(new NetworkModule("https://newsapi.org/v2/"))
                 .build();
         appComponent.inject(this);
         return appComponent;

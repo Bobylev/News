@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 import com.home.news.rssfeed.activities.main.MainFeedActivity;
+import com.home.news.rssfeed.activities.modules.MainFeedModule;
 
 import javax.inject.Singleton;
 
@@ -23,7 +24,7 @@ public abstract class AppModule {
     }
 
     @ActivityScope
-    @ContributesAndroidInjector()
+    @ContributesAndroidInjector(modules = {MainFeedModule.class})
     abstract MainFeedActivity contributesMainFeedActivity();
 
 }
