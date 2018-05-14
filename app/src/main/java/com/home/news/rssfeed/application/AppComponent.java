@@ -25,4 +25,5 @@ public interface AppComponent extends AndroidInjector<DaggerApplication> {
         Builder databaseModule(DatabaseModule databaseModule);
         AppComponent build();
     }
+
 }

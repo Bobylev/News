@@ -18,18 +18,18 @@ public abstract class AppModule {
 
     @Provides
     @Singleton
-    public static SharedPreferences providePreferences(Application application) {
+    public static SharedPreferences providePreferences(RssApplication application) {
         return application.getSharedPreferences("STORE",
                 Context.MODE_PRIVATE);
     }
 
     @Provides
     @Singleton
-    public static Context provideContext(Application application) {
+    public static Context provideContext(RssApplication application) {
         return application;
     }
+
     @ActivityScope
     @ContributesAndroidInjector(modules = {MainFeedModule.class})
     abstract MainFeedActivity contributesMainFeedActivity();
-
 }

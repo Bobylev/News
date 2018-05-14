@@ -1,8 +1,15 @@
 package com.home.news.rssfeed.application;
 
+import android.app.Application;
+import android.content.Context;
+import android.content.SharedPreferences;
+
 import com.home.news.rssfeed.database.DatabaseModule;
 import com.home.news.rssfeed.network.NetworkModule;
 
+import javax.inject.Singleton;
+
+import dagger.Provides;
 import dagger.android.AndroidInjector;
 import dagger.android.support.DaggerApplication;
 
@@ -24,5 +31,6 @@ public class RssApplication extends DaggerApplication {
     public void onCreate() {
         super.onCreate();
     }
+
 
 }
