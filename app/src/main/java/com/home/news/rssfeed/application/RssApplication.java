@@ -8,7 +8,6 @@ import com.facebook.imagepipeline.core.ImagePipelineConfig;
 import com.firebase.jobdispatcher.FirebaseJobDispatcher;
 import com.firebase.jobdispatcher.GooglePlayDriver;
 import com.firebase.jobdispatcher.Job;
-import com.firebase.jobdispatcher.JobTrigger;
 import com.firebase.jobdispatcher.Trigger;
 import com.home.news.rssfeed.database.DatabaseModule;
 import com.home.news.rssfeed.network.NetworkModule;

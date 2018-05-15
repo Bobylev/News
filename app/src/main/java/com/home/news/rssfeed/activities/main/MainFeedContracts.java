@@ -14,7 +14,7 @@ public interface MainFeedContracts {
     interface Presenter extends BaseContracts.Presenter {
         void LoadNews();
         void UpdateNews();
-        void ItemClick(Long id);
+        void ItemClick(Article article);
     }
 
     interface Interactor extends BaseContracts.Interactor {
@@ -26,7 +26,7 @@ public interface MainFeedContracts {
     }
 
     interface Router extends BaseContracts.Router {
-        void NavigateToDetail();
+        void NavigateToDetail(Article article);
     }
 }
 

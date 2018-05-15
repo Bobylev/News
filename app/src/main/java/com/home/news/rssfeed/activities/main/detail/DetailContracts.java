@@ -9,6 +9,7 @@ public interface DetailContracts {
 
     @SuppressWarnings("unused")
     interface Presenter extends BaseContracts.Presenter {
+        void linkClicked(String url);
 
     }
 
@@ -21,6 +22,7 @@ public interface DetailContracts {
     }
 
     interface Router extends BaseContracts.Router {
+        void navigateToUrl(String url);
 
     }
 }

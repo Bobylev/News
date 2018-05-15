@@ -38,7 +38,7 @@ public class MainFeedActivity extends BaseActivity implements MainFeedContracts.
         mDisposable = mMainFeedRecyclerAdapter.getPositionClicks().subscribe(new Consumer<Article>() {
             @Override
             public void accept(Article article){
-                long t = article.id;
+                presenter.ItemClick(article);
             }
         });
     }

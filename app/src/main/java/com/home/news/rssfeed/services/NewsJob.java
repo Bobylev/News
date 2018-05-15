@@ -2,8 +2,6 @@ package com.home.news.rssfeed.services;
 
 import android.content.Intent;
 
-import com.firebase.jobdispatcher.FirebaseJobDispatcher;
-import com.firebase.jobdispatcher.GooglePlayDriver;
 import com.firebase.jobdispatcher.JobParameters;
 import com.firebase.jobdispatcher.JobService;
 import com.home.news.rssfeed.network.ApiService;

@@ -30,8 +30,8 @@ public class MainFeedPresenter  extends BasePresenter<MainFeedContracts.View,
     }
 
     @Override
-    public void ItemClick(Long id) {
-        router.NavigateToDetail();
+    public void ItemClick(Article article) {
+        router.NavigateToDetail(article);
     }
 
     @Override

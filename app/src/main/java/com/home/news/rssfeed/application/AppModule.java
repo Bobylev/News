@@ -5,6 +5,8 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 import com.home.news.rssfeed.activities.main.MainFeedActivity;
+import com.home.news.rssfeed.activities.main.detail.DetailActivity;
+import com.home.news.rssfeed.activities.modules.DetailModule;
 import com.home.news.rssfeed.activities.modules.MainFeedModule;
 import com.home.news.rssfeed.util.Logger;
 
@@ -40,4 +42,8 @@ public abstract class AppModule {
     @ActivityScope
     @ContributesAndroidInjector(modules = {MainFeedModule.class})
     abstract MainFeedActivity contributesMainFeedActivity();
+
+    @ActivityScope
+    @ContributesAndroidInjector(modules = {DetailModule.class})
+    abstract DetailActivity contributesDetailActivity();
 }

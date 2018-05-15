@@ -18,4 +18,8 @@ public abstract class BaseRouter<A extends AppCompatActivity> implements BaseCon
     public void unregister() {
         activity = null;
     }
+
+    public void NavigateBack(){
+        activity.finish();
+    }
 }
