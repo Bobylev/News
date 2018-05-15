@@ -26,7 +26,7 @@ public class NetworkModule {
     @Singleton
     Gson provideGson() {
         GsonBuilder gsonBuilder = new GsonBuilder();
-        gsonBuilder.setFieldNamingPolicy(FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES);
+        gsonBuilder.setDateFormat("yyyy-MM-dd'T'HH:mm:ssz");
         return gsonBuilder.create();
     }
 

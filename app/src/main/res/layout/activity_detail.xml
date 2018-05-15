@@ -6,4 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".activities.main.detail.DetailActivity">
 
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/detail_view_img"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:contentDescription="@string/imageDetailDescription"/>
+
+    <TextView
+        android:id="@+id/detail_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/detail_view_img"
+        />
+    <TextView
+        android:id="@+id/detail_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/detail_title"
+        />
+    <TextView
+        android:id="@+id/detail_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        app:layout_constraintTop_toBottomOf="@id/detail_description"
+        />
+    <TextView
+        android:id="@+id/detail_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        app:layout_constraintTop_toBottomOf="@id/detail_date"
+        />
 </android.support.constraint.ConstraintLayout>

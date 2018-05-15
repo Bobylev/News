@@ -6,6 +6,7 @@ import android.content.SharedPreferences;
 
 import com.home.news.rssfeed.activities.main.MainFeedActivity;
 import com.home.news.rssfeed.activities.modules.MainFeedModule;
+import com.home.news.rssfeed.util.Logger;
 
 import javax.inject.Singleton;
 
@@ -21,6 +22,13 @@ public abstract class AppModule {
     public static SharedPreferences providePreferences(RssApplication application) {
         return application.getSharedPreferences("STORE",
                 Context.MODE_PRIVATE);
+    }
+
+    @Provides
+    @Singleton
+    public static Logger provideLogger()
+    {
+        return new Logger();
     }
 
     @Provides

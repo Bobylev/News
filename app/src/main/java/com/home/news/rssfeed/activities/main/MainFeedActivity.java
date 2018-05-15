@@ -13,11 +13,16 @@ import java.util.ArrayList;
 
 import javax.inject.Inject;
 
+import io.reactivex.disposables.Disposable;
+import io.reactivex.functions.Consumer;
+
 
 public class MainFeedActivity extends BaseActivity implements MainFeedContracts.View{
 
     @Inject
     MainFeedPresenter presenter;
+
+    Disposable mDisposable;
 
     private MainFeedRecyclerAdapter mMainFeedRecyclerAdapter;
 
@@ -29,8 +34,20 @@ public class MainFeedActivity extends BaseActivity implements MainFeedContracts.
         mMainFeedRecyclerAdapter = new MainFeedRecyclerAdapter(new ArrayList<Article>());
         mRecyclerView.setAdapter(mMainFeedRecyclerAdapter);
         presenter.LoadNews();
+
+        mDisposable = mMainFeedRecyclerAdapter.getPositionClicks().subscribe(new Consumer<Article>() {
+            @Override
+            public void accept(Article article){
+                long t = article.id;
+            }
+        });
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mDisposable.dispose();
+    }
 
     @Override
     public void ShowData(ArrayList<Article> newsList) {

@@ -7,23 +7,31 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.facebook.drawee.view.SimpleDraweeView;
 import com.home.news.rssfeed.R;
 import com.home.news.rssfeed.network.data.Article;
 
 import java.util.ArrayList;
 
+import io.reactivex.Observable;
+import io.reactivex.subjects.PublishSubject;
+
 public class MainFeedRecyclerAdapter extends RecyclerView.Adapter<MainFeedRecyclerAdapter.ViewHolder>  {
 
     private ArrayList<Article> mData;
+    private final PublishSubject<Article> onClickSubject = PublishSubject.create();
 
     static class ViewHolder extends RecyclerView.ViewHolder{
         private TextView mHeader;
         private TextView mDescription;
+        private SimpleDraweeView mImage;
 
         private ViewHolder(View view) {
             super(view);
             mHeader = view.findViewById(R.id.header_text);
             mDescription = view.findViewById(R.id.description_text);
+            mImage = view.findViewById(R.id.news_image);
+
         }
     }
 
@@ -41,9 +49,16 @@ public class MainFeedRecyclerAdapter extends RecyclerView.Adapter<MainFeedRecycl
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        Article item = mData.get(position);
+        final Article item = mData.get(position);
         holder.mHeader.setText(item.title);
         holder.mDescription.setText(item.description);
+        holder.mImage.setImageURI(item.urlToImage);
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onClickSubject.onNext(item);
+            }
+        });
     }
 
     @Override
@@ -54,5 +69,9 @@ public class MainFeedRecyclerAdapter extends RecyclerView.Adapter<MainFeedRecycl
     public void updateData(ArrayList<Article> data){
         mData = data;
         notifyDataSetChanged();
+    }
+
+    public Observable<Article> getPositionClicks(){
+        return onClickSubject;
     }
 }

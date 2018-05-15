@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Rss Feed</string>
     <string name="imageDescription">Default image</string>
+    <string name="imageDetailDescription">Default detail image</string>
 </resources>

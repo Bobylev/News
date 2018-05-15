@@ -3,6 +3,7 @@ package com.home.news.rssfeed.application;
 
 import com.home.news.rssfeed.database.DatabaseModule;
 import com.home.news.rssfeed.network.NetworkModule;
+import com.home.news.rssfeed.services.ServiceModule;
 
 import dagger.BindsInstance;
 import dagger.Component;
@@ -10,11 +11,12 @@ import dagger.android.AndroidInjector;
 
 import dagger.android.support.AndroidSupportInjectionModule;
 import dagger.android.support.DaggerApplication;
+import okhttp3.OkHttpClient;
 
 import javax.inject.Singleton;
 
 @Singleton
-@Component(modules = {AndroidSupportInjectionModule.class, AppModule.class, NetworkModule.class, DatabaseModule.class})
+@Component(modules = {AndroidSupportInjectionModule.class, AppModule.class, NetworkModule.class, DatabaseModule.class, ServiceModule.class})
 public interface AppComponent extends AndroidInjector<DaggerApplication> {
 
     @Component.Builder
@@ -25,5 +27,4 @@ public interface AppComponent extends AndroidInjector<DaggerApplication> {
         Builder databaseModule(DatabaseModule databaseModule);
         AppComponent build();
     }
-
 }
