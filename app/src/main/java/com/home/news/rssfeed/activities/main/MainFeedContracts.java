@@ -8,6 +8,7 @@ import java.util.ArrayList;
 public interface MainFeedContracts {
     interface View extends BaseContracts.View {
         void ShowData(ArrayList<Article> newsList);
+        void ShowError(String message);
     }
 
     @SuppressWarnings("unused")
@@ -15,6 +16,7 @@ public interface MainFeedContracts {
         void LoadNews();
         void UpdateNews();
         void ItemClick(Article article);
+
     }
 
     interface Interactor extends BaseContracts.Interactor {
@@ -23,6 +25,7 @@ public interface MainFeedContracts {
 
     interface InteractorOutput extends BaseContracts.InteractorOutput {
         void NewsFeedResult(ArrayList<Article> newsList);
+        void Error(String message);
     }
 
     interface Router extends BaseContracts.Router {

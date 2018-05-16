@@ -11,7 +11,6 @@ import dagger.android.AndroidInjector;
 
 import dagger.android.support.AndroidSupportInjectionModule;
 import dagger.android.support.DaggerApplication;
-import okhttp3.OkHttpClient;
 
 import javax.inject.Singleton;
 

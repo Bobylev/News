@@ -1,0 +1,264 @@
+{
+  "articles": [
+    {
+      "source": {
+        "id": "bloomberg",
+        "name": "Bloomberg"
+      },
+      "author": "Justin Fox",
+      "id": "20",
+      "title": "Malaysia's Back-to-the-Future Reform Wave",
+      "description": "A 92-year-old who ran the country for two decades and the protege he turned against are reuniting. This should be interesting.",
+      "url": "https://www.bloomberg.com/view/articles/2018-05-15/malaysia-s-mahatir-and-his-back-to-the-future-reform-wave",
+      "urlToImage": "asset:///12.jpg",
+      "publishedAt": "2018-05-15T06:00:16Z"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "id": "19",
+      "author": "Bard Wilkinson, CNN",
+      "title": "Who will walk Meghan Markle down the aisle, if not her father?",
+      "description": "Meghan Markle's father, Thomas Markle, has reportedly said he will not attend his daughter's wedding to Prince Harry, prompting speculation over who will walk her down the aisle on Saturday.",
+      "url": "https://www.cnn.com/2018/05/15/europe/harry-meghan-markle-wedding-challenges-intl/index.html",
+      "urlToImage": "asset:///13.jpg",
+      "publishedAt": "2018-05-15T05:49:32Z"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "id": "18",
+      "author": "https://www.facebook.com/mradamtaylor",
+      "title": "Joy in Jerusalem overshadowed by death in Gaza",
+      "description": "As U.S. and Israeli officials celebrated Trump's embassy move, Israeli forces killed scores in Gaza.",
+      "url": "https://www.washingtonpost.com/news/worldviews/wp/2018/05/15/joy-in-jerusalem-overshadowed-by-death-in-gaza/",
+      "urlToImage": "asset:///14.jpg",
+      "publishedAt": "2018-05-15T05:01:34Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Espn.com"
+      },
+      "id": "17",
+      "author": null,
+      "title": "Warriors put Rockets away with second-half burst in Game 1",
+      "description": "Golden State absorbed Houston's blows in Game 1 of the Western Conference finals and eventually broke open the game with stellar 3-point shooting and ball movement.",
+      "url": "http://www.espn.com/nba/story/_/page/ontheroad23506791/golden-state-warriors-put-houston-rockets-away-second-half-burst-game-1",
+      "urlToImage": "http://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2018%2F0514%2Fr370658_1296x729_16%2D9.jpg",
+      "publishedAt": "2018-05-15T04:42:57Z"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "id": "16",
+      "author": "Kevin Yao",
+      "title": "Soft China April investment, retail sales suggest economy losing steam",
+      "description": "China reported weaker-than-expected investment and retail sales in April and a drop in home sales, clouding its economic outlook even as policymakers try to navigate debt risks and defuse a heated trade row with the United States.",
+      "url": "https://www.reuters.com/article/us-china-economy-activity/soft-china-april-investment-retail-sales-suggest-economy-losing-steam-idUSKCN1IG06H",
+      "urlToImage": "https://s3.reutersmedia.net/resources/r/?m=02&d=20180515&t=2&i=1262144666&w=1200&r=LYNXNPEE4E06J",
+      "publishedAt": "2018-05-15T04:30:17Z"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "id": "15",
+      "author": null,
+      "title": "'Torture occurred in this house': Parents charged after police find 10 children living amid feces, garbage",
+      "description": "Mother denies abuse, torture after her husband is arrested and 10 children are taken into protective custody",
+      "url": "https://www.washingtonpost.com/news/post-nation/wp/2018/05/14/torture-occurred-in-this-house-parents-charged-after-police-find-10-children-living-in-feces-garbage/",
+      "urlToImage": "https://www.washingtonpost.com/resizer/Me45YmA6_vKu2qdrkf5OZ_sYSjc=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/RQMI6W2OYY7UDLZMUCDJLZB4OI.jpg",
+      "publishedAt": "2018-05-15T04:15:50Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Sfgate.com"
+      },
+      "id": "14",
+      "author": "Michelle Robertson",
+      "title": "Earthquake rattles Giants game, fans go to bat with geological jokes",
+      "description": "A small earthquake rattled a San Francisco Giants game Monday night, moments before the Giants' Chris Stratton threw a pitch.",
+      "url": "https://www.sfgate.com/bayarea/article/Earthquake-sf-giants-game-monday-reds-cincinnati-12914578.php",
+      "urlToImage": "https://s.hdnux.com/photos/73/11/71/15507065/3/rawImage.jpg",
+      "publishedAt": "2018-05-15T04:08:04Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Nbcdfw.com"
+      },
+      "id": "13",
+      "author": "Rick Mitchell",
+      "title": "Tropical Development Already Bringing Rain to Florida",
+      "description": "Hurricane season begins on June first, but there is already a low chance of some tropical development in the eastern Gulf of Mexico.",
+      "url": "https://www.nbcdfw.com/weather/stories/Tropical-Development-Already-Bringing-Rain-to-Florida-482617861.html",
+      "urlToImage": "https://media.nbcdfw.com/images/1200*675/rick12.png",
+      "publishedAt": "2018-05-15T03:17:39Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hollywoodreporter.com"
+      },
+      "id": "12",
+      "author": "John DeFore",
+      "title": "'Deadpool 2': Film Review",
+      "description": "Marvel's foul-mouthed antihero learns to play well with others (sorta) in a sequel from 'Atomic Blonde' director David Leitch.",
+      "url": "https://www.hollywoodreporter.com/review/deadpool-2-review-1111085",
+      "urlToImage": "https://cdn1.thr.com/sites/default/files/2018/04/a9ea1e54-ac90-4654-8850-9a78916f4853.png",
+      "publishedAt": "2018-05-15T03:00:35Z"
+    },
+    {
+      "source": {
+        "id": "the-new-york-times",
+        "name": "The New York Times"
+      },
+      "id": "11",
+      "author": "http://www.nytimes.com/by/peter-baker, http://www.nytimes.com/by/gina-kolata, http://www.nytimes.com/by/pam-belluck",
+      "title": "Melania Trump Hospitalized for Kidney Medical Procedure",
+      "description": "The first lady is at Walter Reed National Military Medical Center and is likely to remain there for the duration of the week.",
+      "url": "https://www.nytimes.com/2018/05/14/us/politics/melania-trump-kidney-surgery.html",
+      "urlToImage": "https://static01.nyt.com/images/2018/05/15/us/politics/15DC-MELANIATRUMP-01/15DC-MELANIATRUMP-01-facebookJumbo.jpg",
+      "publishedAt": "2018-05-15T00:45:00Z"
+    },
+    {
+      "source": {
+        "id": "the-new-york-times",
+        "name": "The New York Times"
+      },
+      "id": "10",
+      "author": "http://www.nytimes.com/by/adam-liptak, https://www.nytimes.com/by/kevin-draper",
+      "title": "Supreme Court Ruling Favors Sports Betting",
+      "description": "The case concerned New Jersey, but it has implications for other states eager to allow and tax sports gambling. Americans are estimated to annually place $150 billion in illegal wagers on sports.",
+      "url": "https://www.nytimes.com/2018/05/14/us/politics/supreme-court-sports-betting-new-jersey.html",
+      "urlToImage": "https://static01.nyt.com/images/2018/05/15/us/politics/15dc-scotus1/15dc-scotus1-facebookJumbo.jpg",
+      "publishedAt": "2018-05-15T00:45:00Z"
+    },
+    {
+      "source": {
+        "id": "time",
+        "name": "Time"
+      },
+      "id": "9",
+      "author": "Aric Jenkins",
+      "title": "Experts Say Missing Malaysian Airlines Flight 370 Was Intentionally Crashed",
+      "description": "",
+      "url": "http://time.com/5277317/malaysian-airlines-flight-370-mh370/",
+      "urlToImage": "https://timedotcom.files.wordpress.com/2016/07/rtsj5hc.jpg?quality=85",
+      "publishedAt": "2018-05-15T00:26:13Z"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "id": "8",
+      "author": "Rebecca Berg, CNN",
+      "title": "Charge dropped against Missouri Gov. Eric Greitens",
+      "description": "Attorneys representing the state of Missouri announced Monday they will drop a felony invasion of privacy charge against Gov. Eric Greitens, after the attorney prosecuting the case was named as a witness in the trial.",
+      "url": "https://www.cnn.com/2018/05/14/politics/eric-greitens-charge-dropped/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/120523020726-eric-greitens-story-top.jpg",
+      "publishedAt": "2018-05-15T00:04:10Z"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "id": "7",
+      "author": null,
+      "title": "A nanny who killed two children with a kitchen knife will spend the rest of her life in prison",
+      "description": "Yoselyn Ortega, nanny who stabbed and killed two children in her care, was sentenced to life in prison.",
+      "url": "https://www.washingtonpost.com/news/post-nation/wp/2018/05/14/a-nanny-who-killed-two-children-with-a-kitchen-knife-will-spend-the-rest-of-her-life-in-prison/",
+      "urlToImage": "https://www.washingtonpost.com/resizer/KaFRIimkndQAhD0s8hEXIoF68dM=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDYI54HS6Q4ONGH3PX7E3L73PQ.jpg",
+      "publishedAt": "2018-05-14T23:50:48Z"
+    },
+    {
+      "source": {
+        "id": "usa-today",
+        "name": "USA Today"
+      },
+      "id": "6",
+      "author": "William Cummings",
+      "title": "Stormy Daniels lawyer Michael Avenatti threatens to sue 'Daily Caller' reporters",
+      "description": "Michael Avenatti, Stormy Daniels' attorney, threatened to \"recover significant damages against each\" Daily Caller reporter that \"participated personally\" in writing stories about him.",
+      "url": "https://www.usatoday.com/story/news/politics/onpolitics/2018/05/14/michael-avenatti-threatens-sue-daily-caller/609751002/",
+      "urlToImage": "https://www.gannett-cdn.com/-mm-/a084d69b80db63609a3e744d67006bdb8057264b/c=1035-0-2823-1010&r=x1683&c=3200x1680/local/-/media/2018/05/14/USATODAY/USATODAY/636619186363987341-AP-Trump-Porn-Star-99312707.JPG",
+      "publishedAt": "2018-05-14T23:22:00Z"
+    },
+    {
+      "source": {
+        "id": "the-new-york-times",
+        "name": "The New York Times"
+      },
+      "id": "5",
+      "author": "http://www.nytimes.com/by/alan-blinder",
+      "title": "It's Not Just Hawaii: The US Has 169 Volcanoes That Could Erupt",
+      "description": "There are potentially active volcanoes all over the West and Alaska as well as Hawaii, and about 50 are considered high priorities for monitoring. Here is where to find them.",
+      "url": "https://www.nytimes.com/2018/05/14/us/us-active-volcanoes-hawaii.html",
+      "urlToImage": "https://static01.nyt.com/images/2018/05/15/us/15volcanoes1-print/00volcanoes1-sub-facebookJumbo.jpg",
+      "publishedAt": "2018-05-14T22:52:26Z"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "id": "4",
+      "author": "https://www.facebook.com/profile.php?id=1526386",
+      "title": "Squall line arrives with damaging wind, hail and potential for tornadoes",
+      "description": "Several tornado warnings had been issued by 6:30 p.m.",
+      "url": "https://www.washingtonpost.com/news/capital-weather-gang/wp/2018/05/14/widespread-damaging-winds-could-affect-the-washington-region-late-this-afternoon-and-evening/",
+      "urlToImage": "https://www.washingtonpost.com/pbox.php?url=http://www.washingtonpost.com/blogs/capital-weather-gang/files/2017/08/Lightning_8-12-17-lr.jpg&w=1484&op=resize&opt=1&filter=antialias&t=20170517",
+      "publishedAt": "2018-05-14T22:12:32Z"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Npr.org"
+      },
+      "id": "3",
+      "author": "",
+      "title": "Trump Administration's 3 Biggest Ideas For Lowering Drug Prices",
+      "description": "After criticism that the administration's blueprint for drug prices was vague, the secretary of health and human services zeroed in on actions that he said need only his signature.",
+      "url": "https://www.npr.org/sections/health-shots/2018/05/14/611075950/trump-administrations-3-biggest-ideas-for-lowering-drug-prices",
+      "urlToImage": "https://media.npr.org/assets/img/2018/05/14/azar_rose_garden_wide-9a8cff5ca0fe6946e72d6ccbd2009ce96ac1dafd.jpg?s=1400",
+      "publishedAt": "2018-05-14T21:06:13Z"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "id": "2",
+      "author": "https://www.facebook.com/bradydennis, https://www.facebook.com/eilperin",
+      "title": "Scott Pruitt requested, received 24/7 security starting on his first day at EPA",
+      "description": "The agency's inspector general says it played “no role” in decisions about the administrator's security needs.",
+      "url": "https://www.washingtonpost.com/news/energy-environment/wp/2018/05/14/scott-pruitt-requested-and-received-247-security-starting-on-his-first-day-at-epa/",
+      "urlToImage": "https://www.washingtonpost.com/resizer/r3x5mWsHIBwFKNJbNskFhKORjqo=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/P3PANKULJEY7HAAUWAUJGKPTHE.jpg",
+      "publishedAt": "2018-05-14T20:20:13Z"
+    },
+    {
+      "source": {
+        "id": "cbs-news",
+        "name": "CBS News"
+      },
+      "id": "1",
+      "author": "CBS News",
+      "title": "\"Not the way I would deal with people,\" former Defense Secretary Gates says of Trump",
+      "description": "\"Face the Nation\" moderator Margaret Brennan sat down with Robert Gates for an interview to air Sunday",
+      "url": "https://www.cbsnews.com/news/not-the-way-i-would-deal-with-people-former-dod-secy-gates-says-of-trump/",
+      "urlToImage": "https://cbsnews2.cbsistatic.com/hub/i/r/2018/05/11/e6d142d8-dce3-4c62-a0bf-7de37e350fff/thumbnail/1200x630/39dd6f8ae506645bd23c3318f1831d63/gates-intv-ftn-web.jpg",
+      "publishedAt": "2018-05-11T23:07:00Z"
+    }
+  ]
+}

@@ -49,13 +49,19 @@ public class MainFeedInteractor extends BaseInteractor<MainFeedContracts.Interac
                 .subscribe(new Consumer<NewsFeedResponse>() {
                     @Override
                     public void accept(NewsFeedResponse newsFeedResponse){
-                        saveNews(newsFeedResponse);
-                        output.NewsFeedResult(newsFeedResponse.articles);
+                        if(newsFeedResponse.status.equals("ok")) {
+                            saveNews(newsFeedResponse);
+                            output.NewsFeedResult(newsFeedResponse.articles);
+                        } else {
+                            output.Error(newsFeedResponse.status);
+                        }
+
                     }
                 }, new Consumer<Throwable>() {
                     @Override
                     public void accept(Throwable throwable){
                         fromCache();
+                        output.Error(throwable.getMessage());
                     }
                 })
         );

@@ -12,6 +12,7 @@ import com.firebase.jobdispatcher.Trigger;
 import com.home.news.rssfeed.database.DatabaseModule;
 import com.home.news.rssfeed.network.NetworkModule;
 import com.home.news.rssfeed.services.NewsJob;
+import com.squareup.leakcanary.LeakCanary;
 
 
 import dagger.android.AndroidInjector;
@@ -36,6 +37,12 @@ public class RssApplication extends DaggerApplication {
     @Override
     public void onCreate() {
         super.onCreate();
+
+        if (LeakCanary.isInAnalyzerProcess(this)) {
+
+            return;
+        }
+        LeakCanary.install(this);
 
         DiskCacheConfig diskCacheConfig = DiskCacheConfig.newBuilder(this)
                 .setBaseDirectoryPath(this.getApplicationContext().getCacheDir())
@@ -63,6 +70,7 @@ public class RssApplication extends DaggerApplication {
                 .build();
 
         dispatcher.mustSchedule(newsJob);
+
     }
 
 }

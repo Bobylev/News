@@ -35,8 +35,15 @@ public class MainFeedPresenter  extends BasePresenter<MainFeedContracts.View,
     }
 
     @Override
-    public void NewsFeedResult(ArrayList<Article> newsList) {
-        view.ShowData(newsList);
-
+    public void Error(String message) {
+        view.ShowError(message);
     }
+
+    @Override
+    public void NewsFeedResult(ArrayList<Article> newsList) {
+        if((newsList != null)&&(!newsList.isEmpty()))
+        view.ShowData(newsList);
+    }
+
+
 }
